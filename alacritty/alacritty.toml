@@ -1,0 +1,45 @@
+[cursor]
+style = "Underline"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 9
+
+[font.normal]
+family = "JetBrains Mono NL SemiBold"
+#family = "FiraCode Nerd Font Mono"
+#family = "Ubuntu Mono"
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mouse = "Right"
+
+[selection]
+save_to_clipboard = true
+
+[window]
+blur = true
+decorations = "Full"
+opacity = 0.75
+option_as_alt = "Both"
+
+[window.padding]
+x = 10
+y = 10
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Control|Shift"
+
+[general]
+live_config_reload = true
+
+
+import = [
+    #"~/.config/alacritty/themes/themes/blood_moon.toml"
+    "~/.config/alacritty/themes/themes/duskfox.toml"
+]
+
